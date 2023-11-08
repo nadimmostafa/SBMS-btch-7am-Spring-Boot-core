@@ -1,0 +1,14 @@
+package org.nadim.entity;
+
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Data
+@Component
+@Profile("dev")
+public class EmailConfig {
+	@Value("#{new util.Random().nextInt()}")
+	private String port;
+}

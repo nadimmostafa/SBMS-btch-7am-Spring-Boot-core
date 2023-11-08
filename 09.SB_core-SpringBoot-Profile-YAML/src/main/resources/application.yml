@@ -1,0 +1,6 @@
+my:
+ app:
+   driver: default Driver
+   url: defaultSQL
+   userName: root
+   password: root

@@ -1,0 +1,18 @@
+my.app.port = 8080
+my.app.host = gmail.com
+my.app.active= true
+
+# for list,set,array
+#prefix.variableName[index] = value
+# prefix.variableName = A,B,C
+
+my.app.providerName[0] = Nadim
+my.app.providerName[1] = Mostafa
+my.app.providerName[2] = Golam Rabbani
+
+# my.app.providerName = Nadim, Mostafa, Golam
+
+# for Map ==> prefix.variableName.key = value
+
+my.app.productWithId.p11 = Mobile
+my.app.productWithId.p12 = Laptop

@@ -1,0 +1,20 @@
+ package org.nadim.entity;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Data
+@Component
+
+//read data from properties file and inject data 
+//to exact matching 'properties file key-name' with 'class variable-name'
+
+@ConfigurationProperties("my.app")
+public class StudentEntity {
+	private Integer id;
+	private String name;
+	private String gender;
+
+}

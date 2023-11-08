@@ -1,0 +1,49 @@
+
+spring:
+  config:
+    activate:
+      on-profile:
+      - qa
+      - dev
+
+my:
+ app:
+   driver: OracleDriver
+   url: Oracle@localhost
+   userName: System
+   password: Oracle19
+   
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - prod
+my:
+ app:
+   driver: MySqlDriver
+   url: Mysql@localhost
+   userName: root
+   password: root
+
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - uat
+my:
+ app:
+   driver: PostGressDriver
+   url: PostGress@localhost
+   userName: tiger
+   password: root
+   
+---
+my:
+ app:
+   driver: Defaultdriver
+   url: Default@localhost
+   userName: default
+   password: root
+   

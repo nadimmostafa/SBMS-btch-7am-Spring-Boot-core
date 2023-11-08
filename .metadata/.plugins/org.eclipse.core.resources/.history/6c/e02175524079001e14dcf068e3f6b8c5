@@ -1,0 +1,17 @@
+package org.nadim.runner;
+
+import org.nadim.Entity.StudentEntity;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+
+public class MyAppRunner implements CommandLineRunner {
+	
+	@Autowired
+	private StudentEntity std;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println(std);
+	}
+
+}

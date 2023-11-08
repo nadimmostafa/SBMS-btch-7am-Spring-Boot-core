@@ -1,0 +1,6 @@
+my.app.driverName = MySQL.jdbc.OracleDriver
+my.app.url = jdbc:MySQL:@localhost:1521
+my.app.userName = root
+my.app.password = root
+
+

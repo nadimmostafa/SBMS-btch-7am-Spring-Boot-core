@@ -1,0 +1,12 @@
+package org.nadim.profileRunner;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class DefaultRunner implements CommandLineRunner {
+
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println("Default Runner...");
+	}
+
+}

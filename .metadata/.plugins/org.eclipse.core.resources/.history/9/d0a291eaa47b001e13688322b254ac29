@@ -1,0 +1,12 @@
+package org.nadim.entity;
+
+import lombok.AllArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@AllArgsConstructor
+@RequiredArgsConstructor
+public class Product {
+	private Integer pId;
+	private Double price;
+	private String pname;
+}

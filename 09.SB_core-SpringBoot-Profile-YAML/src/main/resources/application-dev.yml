@@ -1,0 +1,6 @@
+my:
+ app:
+   driver: oracle.jdbc.OracleDriver
+   url:jdbc: oracle:thin:@localhost1521:orcl
+   userName: System
+   password: Oracle19

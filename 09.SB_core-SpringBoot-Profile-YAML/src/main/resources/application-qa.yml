@@ -1,0 +1,6 @@
+my:
+ app:
+   driver: mysql.jdbc.MysqlDriver
+   url: jdbc:mysql:thin:@localhost3301
+   userName: root
+   password: root

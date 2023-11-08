@@ -1,0 +1,22 @@
+my:
+ app:
+   driver: OracleDriver
+   url: Oracle@localhost
+   userName: System
+   password: Oracle19
+   
+---
+my:
+ app:
+   driver: MySqlDriver
+   url: Mysql@localhost
+   userName: root
+   password: root
+
+---
+my:
+ app:
+   driver: PostGressDriver
+   url: PostGress@localhost
+   userName: tiger
+   password: root

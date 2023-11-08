@@ -1,0 +1,3 @@
+my.app.port = 6161
+my.app.host = https
+my.app.active = true

@@ -1,0 +1,20 @@
+package org.nadim.Entity;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+@Component
+@Data
+public class StudentEntity {
+	
+	@Value("${my.app-id}")
+	private Integer id;
+	
+	@Value("${my.app-name}")
+	private String name;
+	
+	@Value("${my.app-gender}")
+	private String gender;
+}
